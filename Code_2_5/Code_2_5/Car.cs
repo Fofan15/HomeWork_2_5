@@ -14,6 +14,10 @@ namespace Code_2_5
         public int FuelConsumption { get; set; }
         public int Price { get; set; }
 
+        public GasolineEngine gasolineEngine { get; set; }
+
+        public DieselEngine dieselEngine { get; set; }
+
         public Car(string brand, string model, int year, int fuelConsumption, int price)
         {
             Brand = brand;
